@@ -14,9 +14,13 @@ const Header = () => (
       <Link to="/shop" className="option">
         SHOP
       </Link>
+<<<<<<< HEAD
       <Link to="/contact" className="option">
         CONTACT
       </Link>
+=======
+      <Link className="option">CONTACT</Link>
+>>>>>>> 2e3bf5ae5096cb09efb02009373636b5b3d3adf2
     </div>
   </div>
 );
