@@ -7,7 +7,6 @@ import { fetchCollectionsStart } from '../../redux/shop/shop.actions';
 
 const ShopPage = ({ fetchCollectionsStart, match }) => {
   useEffect(() => {
-    console.log('Shop effect');
     fetchCollectionsStart();
   }, [fetchCollectionsStart]);
 
